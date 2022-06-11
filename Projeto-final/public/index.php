@@ -1,3 +1,9 @@
-<?php
+    <?php
+    
+    include 'vendor/autoload.php';
 
-echo 'hola mundo';
+    use App\Controller\IndexController;
+
+    $c = new IndexController();
+    $c->indexAction();
+
