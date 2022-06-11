@@ -5,5 +5,6 @@
     use App\Controller\IndexController;
 
     $c = new IndexController();//instanciando indexControler.
-    $c->indexAction();
+    //$c->indexAction();
+    $c->loginAction();
 
