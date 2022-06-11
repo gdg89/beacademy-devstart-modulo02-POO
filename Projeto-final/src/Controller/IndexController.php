@@ -9,10 +9,10 @@ class IndexController
 {
     //metodo
     public function indexAction(): void {
-        include 'src/View/index/index.php';//incluindo view
+        include 'src/View/index/index.php';//incluindo rota da view -pagina inicial - accion en el sistema.
     }
 
     public function loginAction():void {
-        include 'src/View/index/login.php';
+        include 'src/View/index/login.php';// pagina login
     }
 }

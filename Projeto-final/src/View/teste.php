@@ -1,1 +1,0 @@
-<h1>Ola mundo, estou deno de uma action, dentro de um controller, porem esse html é uma view </h1>
