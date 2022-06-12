@@ -8,6 +8,6 @@ abstract class AbstractController
 {
     public function render(string $viewName): void      // renderizando html
     {   
-        include 'src/View/{$viewname}.php';
+        include "src/View/{$viewName}.php";
     }
 }
