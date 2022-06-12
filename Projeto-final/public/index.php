@@ -4,13 +4,20 @@
 
     use App\Controller\IndexController;
     use App\Controller\ProductController;
+    use App\Controller\CategoryController;
 
-    $c = new IndexController();//instanciando indexControler.
-    //$c->indexAction();
-    $c->loginAction();
+    $i = new IndexController();//instanciando indexControler.
+    $i->indexAction();
+    $i->loginAction();
 
     $p = new ProductController();
     $p->listAction();
     $p->addAction();
     $p->editAction();
+
+    $c = new CategoryController();
+    $c->listAction();
+    $c->addAction();
+    $c->editAction();
+
 
